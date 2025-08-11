@@ -1,0 +1,82 @@
+# Element Insight VS Code Extension - Git Repository
+# This repository contains only documentation and compliance files
+# Source code is kept private for IP protection
+
+# Source Code (Excluded for IP Protection)
+src/
+dist/
+out/
+node_modules/
+*.ts
+*.js
+*.js.map
+*.d.ts
+
+# Build Files
+webpack.config.js
+tsconfig.json
+package.json
+package-lock.json
+.eslintrc*
+.eslintignore
+
+# Binary Files
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.sha256
+
+# VS Code Extension Files
+*.vsix
+.vscode/
+.vscodeignore
+
+# Development Files
+*.log
+*.tmp
+*.temp
+.env
+.env.local
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# Documentation (Keep these)
+# README.md
+# CHANGELOG.md
+# LICENSE
+# THIRD_PARTY_LICENSES.md
+# ATTRIBUTION.md
+# COMPLIANCE_CHECKLIST.md
+# examples/
+# docs/
+
+# Only include documentation and compliance files
+# Everything else is excluded for IP protection
