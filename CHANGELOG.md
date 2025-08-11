@@ -1,13 +1,13 @@
 # Change Log
 
-All notable changes to the "Element Insight" extension will be documented in this file.
+All notable changes to the "ElementInsight" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [0.0.1] - 2025-01-XX
 
 ### Added
-- Initial release of Element Insight VS Code extension
+- Initial release of ElementInsight VS Code extension
 - **Element Insight feature** with Rust binary integration for web page scanning
 - **Framework Export functionality** for Playwright and Selenium with multiple languages
 - **Google OAuth authentication** integration with Firebase
@@ -47,7 +47,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - **Framework Code**: Generated test automation code
 
 ### Commands
-- **Open Element Insight**: Opens main extension panel
+- **Open Synkit ElementInsight**: Opens main extension panel
 - **Element Insight: Install Dependencies**: Install Python and lxml
 - **Element Insight: Install Playwright in Workspace**: Install Playwright in current workspace
 - **Element Insight: Install Playwright Browsers**: Install Playwright browsers
@@ -64,7 +64,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Technical Details
 - **Built with TypeScript** and Rust binaries for performance
 - **Uses Playwright** for web page scanning
-- **Integrates with Krisu SaaS platform** for quota management
+- **Integrates with Synkit SaaS platform** for quota management
 - **Local processing** for element analysis and code generation
 - **Secure error handling** with information disclosure prevention
 - **Comprehensive logging** with development/production modes
@@ -85,18 +85,3 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - **Parallel element analysis** for improved speed
 - **Memory optimization** for large pages
 - **Caching** for repeated operations
-
----
-
-## [Unreleased]
-
-### Planned Features
-- **Enhanced AI Analysis**: Improved element analysis algorithms
-- **More Framework Support**: Additional testing frameworks
-- **Performance Optimizations**: Faster scanning and processing
-- **Advanced Locator Strategies**: More sophisticated locator generation
-- **Team Collaboration**: Shared projects and templates
-
----
-
-**For detailed information about each release, visit our [documentation](https://krisu.ai/docs).**

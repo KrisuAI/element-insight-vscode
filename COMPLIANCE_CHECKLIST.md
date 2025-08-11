@@ -14,6 +14,11 @@ This checklist ensures the Element Insight VS Code Extension maintains proper li
 - [ ] Firebase copyright notice included (Google LLC)
 - [ ] node-fetch copyright notice included (David Halls)
 - [ ] open copyright notice included (Sindre Sorhus)
+- [ ] Playwright copyright notice included (Microsoft Corporation)
+- [ ] Python copyright notice included (Python Software Foundation)
+- [ ] lxml copyright notice included (Infrae and contributors)
+- [ ] Node.js copyright notice included (Node.js contributors)
+- [ ] npm copyright notice included (npm, Inc.)
 - [ ] TypeScript copyright notice included (Microsoft Corporation)
 - [ ] ESLint copyright notice included (OpenJS Foundation)
 - [ ] Webpack copyright notice included (webpack contributors)
@@ -21,6 +26,11 @@ This checklist ensures the Element Insight VS Code Extension maintains proper li
 ### License Texts
 - [ ] Apache 2.0 license text included for Firebase
 - [ ] Apache 2.0 license text included for TypeScript
+- [ ] Apache 2.0 license text included for Playwright
+- [ ] PSF license text included for Python
+- [ ] BSD license text included for lxml
+- [ ] MIT license text included for Node.js
+- [ ] Artistic License 2.0 text included for npm
 - [ ] MIT license text included for node-fetch
 - [ ] MIT license text included for open
 - [ ] MIT license text included for ESLint ecosystem
@@ -58,9 +68,9 @@ This checklist ensures the Element Insight VS Code Extension maintains proper li
 
 ### License Compatibility Matrix
 
-| Your License | MIT Libraries | Apache 2.0 Libraries | GPL Libraries |
-|--------------|---------------|----------------------|---------------|
-| MIT + Attribution | ✅ Compatible | ✅ Compatible | ❌ Incompatible |
+| Your License | MIT Libraries | Apache 2.0 Libraries | PSF/BSD/Artistic Libraries | GPL Libraries |
+|--------------|---------------|----------------------|---------------------------|---------------|
+| MIT + Attribution | ✅ Compatible | ✅ Compatible | ✅ Compatible | ❌ Incompatible |
 
 ### Required Actions by License Type
 
@@ -70,6 +80,24 @@ This checklist ensures the Element Insight VS Code Extension maintains proper li
 - ✅ No additional restrictions
 
 #### Apache 2.0 License
+- ✅ Include full license text
+- ✅ Include copyright notice
+- ✅ Include license URL reference
+- ✅ State changes made (if any)
+
+#### PSF License (Python)
+- ✅ Include full license text
+- ✅ Include copyright notice
+- ✅ Include license URL reference
+- ✅ State changes made (if any)
+
+#### BSD License (lxml)
+- ✅ Include full license text
+- ✅ Include copyright notice
+- ✅ Include license URL reference
+- ✅ State changes made (if any)
+
+#### Artistic License 2.0 (npm)
 - ✅ Include full license text
 - ✅ Include copyright notice
 - ✅ Include license URL reference

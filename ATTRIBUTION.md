@@ -30,6 +30,46 @@ This file provides proper attribution and acknowledgment for all third-party lib
 - **Usage**: Opening browser URLs for authentication flows
 - **Attribution**: This extension uses the open library to launch browser windows for user authentication.
 
+#### Playwright
+- **Author**: Microsoft Corporation
+- **License**: Apache 2.0
+- **Homepage**: https://playwright.dev/
+- **Repository**: https://github.com/microsoft/playwright
+- **Usage**: Web page scanning, browser automation, code generation
+- **Attribution**: This extension uses Playwright for web page scanning and generates Playwright code for users.
+
+#### Python
+- **Author**: Python Software Foundation
+- **License**: PSF License
+- **Homepage**: https://www.python.org/
+- **Repository**: https://github.com/python/cpython
+- **Usage**: XPath locator generation, enhanced accuracy
+- **Attribution**: This extension recommends and supports Python for enhanced XPath locator generation.
+
+#### lxml
+- **Author**: Infrae and contributors
+- **License**: BSD License
+- **Homepage**: https://lxml.de/
+- **Repository**: https://github.com/lxml/lxml
+- **Usage**: XML/HTML parsing, XPath evaluation
+- **Attribution**: This extension recommends lxml for improved XPath locator accuracy.
+
+#### Node.js
+- **Author**: Node.js contributors
+- **License**: MIT
+- **Homepage**: https://nodejs.org/
+- **Repository**: https://github.com/nodejs/node
+- **Usage**: Runtime environment, Playwright installation
+- **Attribution**: This extension uses Node.js as the runtime environment and for installing Playwright.
+
+#### npm
+- **Author**: npm, Inc. and Contributors
+- **License**: Artistic License 2.0
+- **Homepage**: https://www.npmjs.com/
+- **Repository**: https://github.com/npm/cli
+- **Usage**: Package management, dependency installation
+- **Attribution**: This extension uses npm to install and manage Playwright dependencies.
+
 ### Development Dependencies
 
 #### TypeScript (^5.8.3)
@@ -63,6 +103,21 @@ This file provides proper attribution and acknowledgment for all third-party lib
 - **Repository**: https://github.com/microsoft/vscode
 - **Usage**: VS Code extension development and API integration
 - **Attribution**: This extension uses the official VS Code extension API types for proper integration.
+
+## Built-in Node.js Modules
+
+The following Node.js built-in modules are used in this extension:
+
+- **crypto** - Cryptographic functionality for binary integrity verification
+- **child_process** - Process spawning and management for binary execution
+- **path** - File path utilities for cross-platform compatibility
+- **fs** - File system operations for binary management
+- **os** - Operating system utilities for platform detection
+- **http** - HTTP client for API communication
+- **url** - URL parsing and formatting for web requests
+- **util** - Utility functions for promise handling
+
+These modules are part of Node.js and are licensed under the MIT License (see Node.js attribution above).
 
 ## Additional Acknowledgments
 
