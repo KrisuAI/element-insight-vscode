@@ -88,7 +88,9 @@ This extension is licensed under **MIT License with Krisu.ai Attribution**.
 
 This extension includes third-party libraries that are subject to their respective licenses:
 
+#### Production Dependencies
 - **Firebase** - Apache 2.0 License (Google LLC)
+- **Firebase Ecosystem** (@firebase/* packages) - Apache 2.0 License (Google LLC)
 - **node-fetch** - MIT License (David Halls)
 - **open** - MIT License (Sindre Sorhus)
 - **Playwright** - Apache 2.0 License (Microsoft Corporation)
@@ -96,9 +98,19 @@ This extension includes third-party libraries that are subject to their respecti
 - **lxml** - BSD License (Infrae and contributors)
 - **Node.js** - MIT License (Node.js contributors)
 - **npm** - Artistic License 2.0 (npm, Inc.)
+
+#### Development Dependencies
 - **TypeScript** - Apache 2.0 License (Microsoft Corporation)
-- **ESLint** - MIT License (OpenJS Foundation)
-- **Webpack** - MIT License (webpack contributors)
+- **TypeScript ESLint** (@typescript-eslint/* packages) - MIT License
+- **ESLint Ecosystem** (@eslint/* packages) - MIT License (OpenJS Foundation)
+- **Webpack Ecosystem** (@webpack/* packages) - MIT License (webpack contributors)
+- **VS Code Types** - MIT License (Microsoft Corporation)
+- **Protobuf Ecosystem** (@protobufjs/* packages) - BSD-3-Clause License
+- **gRPC** (@grpc/grpc-js) - Apache 2.0 License (Google LLC)
+- **ISC License Dependencies** (minimatch, glob, rimraf, semver, tape) - ISC License
+- **Python-2.0 License Dependencies** (argparse) - Python-2.0 License
+- **BSD-2-Clause License Dependencies** (espree, estraverse, esrecurse) - BSD-2-Clause License
+- **Various Utilities** - MIT License (Various contributors)
 
 For complete license information and attribution, see:
 - [LICENSE](LICENSE) - Main license file

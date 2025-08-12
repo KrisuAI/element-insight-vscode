@@ -6,29 +6,13 @@ This file provides proper attribution and acknowledgment for all third-party lib
 
 ### Production Dependencies
 
-#### Firebase (^12.0.0)
-- **Author**: Google LLC
-- **License**: Apache 2.0
-- **Homepage**: https://firebase.google.com/
-- **Repository**: https://github.com/firebase/firebase-js-sdk
-- **Usage**: Authentication system, OAuth integration, user management
-- **Attribution**: This extension uses Firebase for secure authentication and user management services.
-
-#### node-fetch (^3.3.2)
-- **Author**: David Halls
-- **License**: MIT
-- **Homepage**: https://github.com/node-fetch/node-fetch
-- **Repository**: https://github.com/node-fetch/node-fetch
-- **Usage**: HTTP requests for backend synchronization and API calls
-- **Attribution**: This extension uses node-fetch for making HTTP requests to backend services.
-
 #### open (^10.1.2)
 - **Author**: Sindre Sorhus
 - **License**: MIT
 - **Homepage**: https://sindresorhus.com/open
 - **Repository**: https://github.com/sindresorhus/open
-- **Usage**: Opening browser URLs for authentication flows
-- **Attribution**: This extension uses the open library to launch browser windows for user authentication.
+- **Usage**: Opening browser URLs for sign-up links
+- **Attribution**: This extension uses the open library to launch browser windows for user sign-up.
 
 #### Playwright
 - **Author**: Microsoft Corporation
@@ -70,6 +54,14 @@ This file provides proper attribution and acknowledgment for all third-party lib
 - **Usage**: Package management, dependency installation
 - **Attribution**: This extension uses npm to install and manage Playwright dependencies.
 
+### Rust Binaries and Libraries
+
+For a comprehensive list of all Rust crates and their licenses used in the `element-insight-binary` and `framework-export-binary` components, please refer to:
+
+- [RUST_THIRD_PARTY_LICENSES.md](./RUST_THIRD_PARTY_LICENSES.md)
+
+This document provides detailed attribution, license texts, and usage information for all Rust dependencies.
+
 ### Development Dependencies
 
 #### TypeScript (^5.8.3)
@@ -88,6 +80,14 @@ This file provides proper attribution and acknowledgment for all third-party lib
 - **Usage**: Code linting, formatting, and quality assurance
 - **Attribution**: This extension uses ESLint for maintaining code quality and consistency.
 
+#### ESLint Ecosystem Dependencies
+- **Author**: OpenJS Foundation and contributors
+- **License**: MIT
+- **Homepage**: https://eslint.org/
+- **Repository**: https://github.com/eslint/eslint
+- **Usage**: ESLint core engine, configuration, utilities, and plugins
+- **Attribution**: This extension uses various ESLint ecosystem packages for comprehensive code analysis.
+
 #### Webpack Ecosystem
 - **Author**: webpack contributors
 - **License**: MIT
@@ -96,6 +96,14 @@ This file provides proper attribution and acknowledgment for all third-party lib
 - **Usage**: Build tool, bundling, and asset management
 - **Attribution**: This extension uses Webpack for building and bundling the extension code.
 
+#### Webpack Ecosystem Dependencies
+- **Author**: webpack contributors
+- **License**: MIT
+- **Homepage**: https://webpack.js.org/
+- **Repository**: https://github.com/webpack/webpack
+- **Usage**: Webpack CLI, source maps, file watching, module resolution
+- **Attribution**: This extension uses various Webpack ecosystem packages for comprehensive build tooling.
+
 #### VS Code Extension API Types
 - **Author**: Microsoft Corporation
 - **License**: MIT
@@ -103,6 +111,14 @@ This file provides proper attribution and acknowledgment for all third-party lib
 - **Repository**: https://github.com/microsoft/vscode
 - **Usage**: VS Code extension development and API integration
 - **Attribution**: This extension uses the official VS Code extension API types for proper integration.
+
+#### TypeScript ESLint Dependencies
+- **Author**: TypeScript ESLint contributors
+- **License**: MIT
+- **Homepage**: https://typescript-eslint.io/
+- **Repository**: https://github.com/typescript-eslint/typescript-eslint
+- **Usage**: TypeScript-specific ESLint rules and parsing
+- **Attribution**: This extension uses TypeScript ESLint packages for TypeScript code analysis.
 
 ## Built-in Node.js Modules
 
@@ -113,11 +129,18 @@ The following Node.js built-in modules are used in this extension:
 - **path** - File path utilities for cross-platform compatibility
 - **fs** - File system operations for binary management
 - **os** - Operating system utilities for platform detection
-- **http** - HTTP client for API communication
-- **url** - URL parsing and formatting for web requests
 - **util** - Utility functions for promise handling
 
 These modules are part of Node.js and are licensed under the MIT License (see Node.js attribution above).
+
+## Additional Dependencies
+
+#### Utility Dependencies
+- **@humanfs/* packages** - **Author**: Human contributors - **License**: MIT - **Usage**: Human-friendly file system utilities
+- **@jridgewell/* packages** - **Author**: Justin Ridgewell - **License**: MIT - **Usage**: Source map and trace utilities
+- **@nodelib/* packages** - **Author**: Denis Malinochkin - **License**: MIT - **Usage**: File system utilities
+- **Various utility packages** - **Author**: Various contributors - **License**: MIT - **Usage**: Development and build utilities
+- **Attribution**: These packages provide essential utilities for development, building, and runtime operations.
 
 ## Additional Acknowledgments
 
@@ -137,7 +160,9 @@ All third-party libraries used in this extension are compatible with the extensi
 
 - **MIT Licenses**: Fully compatible with your custom license
 - **Apache 2.0 Licenses**: More permissive than MIT, fully compatible
-- **No Conflicts**: All licenses allow commercial use and distribution
+- **PSF License (Python)**: Compatible with MIT, allows commercial use
+- **BSD License (lxml)**: Compatible with MIT, allows commercial use
+- **Artistic License 2.0 (npm)**: Compatible with MIT, allows commercial use
 
 ## Compliance Verification
 

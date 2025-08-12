@@ -12,6 +12,7 @@ This checklist ensures the Element Insight VS Code Extension maintains proper li
 
 ### Copyright Notices
 - [ ] Firebase copyright notice included (Google LLC)
+- [ ] Firebase ecosystem packages copyright notice included (Google LLC)
 - [ ] node-fetch copyright notice included (David Halls)
 - [ ] open copyright notice included (Sindre Sorhus)
 - [ ] Playwright copyright notice included (Microsoft Corporation)
@@ -20,21 +21,36 @@ This checklist ensures the Element Insight VS Code Extension maintains proper li
 - [ ] Node.js copyright notice included (Node.js contributors)
 - [ ] npm copyright notice included (npm, Inc.)
 - [ ] TypeScript copyright notice included (Microsoft Corporation)
-- [ ] ESLint copyright notice included (OpenJS Foundation)
-- [ ] Webpack copyright notice included (webpack contributors)
+- [ ] TypeScript ESLint packages copyright notice included
+- [ ] ESLint ecosystem packages copyright notice included (OpenJS Foundation)
+- [ ] Webpack ecosystem packages copyright notice included (webpack contributors)
+- [ ] Protobuf ecosystem packages copyright notice included (Daniel Wirtz)
+- [ ] gRPC copyright notice included (Google LLC)
+- [ ] ISC license packages copyright notice included (Internet Systems Consortium, Inc.)
+- [ ] Python-2.0 license packages copyright notice included (Python Software Foundation)
+- [ ] BSD-2-Clause license packages copyright notice included (Various contributors)
+- [ ] Various utility packages copyright notices included
 
 ### License Texts
 - [ ] Apache 2.0 license text included for Firebase
+- [ ] Apache 2.0 license text included for Firebase ecosystem packages
 - [ ] Apache 2.0 license text included for TypeScript
 - [ ] Apache 2.0 license text included for Playwright
+- [ ] Apache 2.0 license text included for gRPC
 - [ ] PSF license text included for Python
 - [ ] BSD license text included for lxml
+- [ ] BSD-3-Clause license text included for Protobuf ecosystem packages
+- [ ] BSD-2-Clause license text included for JavaScript parsing utilities
+- [ ] ISC license text included for various utilities
+- [ ] Python-2.0 license text included for argparse
 - [ ] MIT license text included for Node.js
-- [ ] Artistic License 2.0 text included for npm
+- [ ] MIT license text included for npm
 - [ ] MIT license text included for node-fetch
 - [ ] MIT license text included for open
-- [ ] MIT license text included for ESLint ecosystem
-- [ ] MIT license text included for Webpack ecosystem
+- [ ] MIT license text included for ESLint ecosystem packages
+- [ ] MIT license text included for TypeScript ESLint packages
+- [ ] MIT license text included for Webpack ecosystem packages
+- [ ] MIT license text included for various utility packages
 
 ### Documentation
 - [ ] README.md includes licensing section
@@ -68,8 +84,8 @@ This checklist ensures the Element Insight VS Code Extension maintains proper li
 
 ### License Compatibility Matrix
 
-| Your License | MIT Libraries | Apache 2.0 Libraries | PSF/BSD/Artistic Libraries | GPL Libraries |
-|--------------|---------------|----------------------|---------------------------|---------------|
+| Your License | MIT Libraries | Apache 2.0 Libraries | PSF/BSD/BSD-2-Clause/BSD-3-Clause/ISC/Python-2.0/Artistic Libraries | GPL Libraries |
+|--------------|---------------|----------------------|----------------------------------------------------------------------|---------------|
 | MIT + Attribution | ✅ Compatible | ✅ Compatible | ✅ Compatible | ❌ Incompatible |
 
 ### Required Actions by License Type
@@ -92,6 +108,30 @@ This checklist ensures the Element Insight VS Code Extension maintains proper li
 - ✅ State changes made (if any)
 
 #### BSD License (lxml)
+- ✅ Include full license text
+- ✅ Include copyright notice
+- ✅ Include license URL reference
+- ✅ State changes made (if any)
+
+#### BSD-3-Clause License (Protobuf ecosystem)
+- ✅ Include full license text
+- ✅ Include copyright notice
+- ✅ Include license URL reference
+- ✅ State changes made (if any)
+
+#### BSD-2-Clause License (JavaScript parsing utilities)
+- ✅ Include full license text
+- ✅ Include copyright notice
+- ✅ Include license URL reference
+- ✅ State changes made (if any)
+
+#### ISC License (Various utilities)
+- ✅ Include full license text
+- ✅ Include copyright notice
+- ✅ Include license URL reference
+- ✅ State changes made (if any)
+
+#### Python-2.0 License (argparse)
 - ✅ Include full license text
 - ✅ Include copyright notice
 - ✅ Include license URL reference
